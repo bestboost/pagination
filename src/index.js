@@ -16,18 +16,16 @@ const newsApiService = new NewApiService();
 refs.searchForm.addEventListener('submit', onSearch);
 refs.loadMoreBtn.addEventListener('click', onLoadMoreBtn);
 
-let searchQuery = '';
-
 function onSearch(e) {
      e.preventDefault();
 
-     const searchQuery = e.currentTarget.elements.query.value;
-
-     newsApiService.fetchArticles(searchQuery);
+     newsApiService.query = e.currentTarget.elements.query.value;
+     newsApiService.resetPage();
+     newsApiService.fetchArticles();
 };
 
 function onLoadMoreBtn() {
-     newsApiService.fetchArticles(searchQuery);
+     newsApiService.fetchArticles();
 }
 
 
