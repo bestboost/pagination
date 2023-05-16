@@ -1,0 +1,24 @@
+{
+  "name": "pagination",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bestboost/pagination.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bestboost/pagination/issues"
+  },
+  "homepage": "https://github.com/bestboost/pagination#readme",
+  "dependencies": {
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-handlebars-precompile-ts": "^1.0.0",
+    "parcel-plugin-nuke-dist": "^1.0.1"
+  }
+}
