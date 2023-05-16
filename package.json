@@ -21,5 +21,8 @@
     "parcel-bundler": "^1.12.5",
     "parcel-plugin-handlebars-precompile-ts": "^1.0.0",
     "parcel-plugin-nuke-dist": "^1.0.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.4"
   }
 }
